@@ -60,7 +60,24 @@ export default class App {
         
     }
 
+    contarImparesWhile(inicio, fin){
+
+        let i = inicio
+
+        let impares = 0
     
+        while(i <= fin){
+
+            if(i%2!==0){
+
+                impares = impares + 1
+            }
+
+            i = i + 1
+        }
+
+        return impares
+    }
 
 
 }
@@ -77,6 +94,8 @@ console.log(app.contarImparesFor(10,5))
 //Función que suma los números pares del 1 al 20
 console.log(app.sumarParesWhile())
 
+//Función que cuenta los impares que hay entre un intervalo
+console.log(app.contarImparesWhile(5,11))
 
 
 
