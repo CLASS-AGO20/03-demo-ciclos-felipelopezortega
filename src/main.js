@@ -13,14 +13,14 @@ export default class App {
             
         }
 
-        return suma 
+        return suma;
     }
 
     contarImparesFor(inicio, fin){
        
         let impares = 0
 
-        for(let i=inicio; i<=fin; i = i + 1){
+        for(let i=inicio; i<=fin; i = i + 2){
 
             if(i!==0){
 
@@ -28,7 +28,7 @@ export default class App {
             }
         }
 
-        return impares / 2
+        return impares
     }
 
 
