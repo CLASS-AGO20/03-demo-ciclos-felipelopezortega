@@ -2,8 +2,8 @@ export default class App {
 
     sumarParesFor(){
         
-        let suma = 0
-
+        let suma = 0 
+        
         for( let i = 0; i <= 20; i = i + 2 ){
 
             if(suma % 2 === 0){
