@@ -20,6 +20,16 @@ export default class App {
        
         let impares = 0
 
+        if(inicio > fin){
+
+            let newInicio = inicio
+
+            inicio = fin
+
+            fin = newInicio
+
+        }
+
         for(let i=inicio; i<=fin; i = i + 2){
 
             if(i!==0){
@@ -41,3 +51,4 @@ console.log(app.sumarParesFor())
 
 //Función que determina los números impares entre un intervalo
 console.log(app.contarImparesFor(5,10))
+console.log(app.contarImparesFor(10,5))
